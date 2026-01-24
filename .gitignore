@@ -1,18 +1,40 @@
+# --- Maven Build / Compiled Code ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# --- IDE: Visual Studio Code  ---
+.vscode/
+*.code-workspace
+
+# --- IDE: IntelliJ IDEA  ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- IDE: Eclipse ---
+.classpath
+.project
+.settings/
+bin/
+
+# --- Operating System Files ---
 # Windows
 Thumbs.db
+thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
 .DS_Store
 
-# Python
-__pycache__/
-*.pyc
+# Linux
+*~
+*.swp
+
+# --- Secrets & Environment Variables ---
 .env
-
-# Node.js
-node_modules/
-
-# VS Code
-.vscode/
-
-# Build / output
-dist/
-build/
