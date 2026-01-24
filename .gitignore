@@ -16,3 +16,13 @@ node_modules/
 # Build / output
 dist/
 build/
+
+#
+.idea/
+*.iml
+*.xml
+misc.xml
+
+out/
+target/
+node_modules/
