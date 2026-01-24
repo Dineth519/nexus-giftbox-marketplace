@@ -32,17 +32,9 @@ $RECYCLE.BIN/
 # macOS
 .DS_Store
 
-# Python
-__pycache__/
-*.pyc
+# Linux
+*~
+*.swp
+
+# --- Secrets & Environment Variables ---
 .env
-
-# Node.js
-node_modules/
-
-# VS Code
-.vscode/
-
-# Build / output
-dist/
-build/
